@@ -1,0 +1,14 @@
+#!/bin/bash
+echo -n "this's data is:"
+date
+echo -n "curr_user:"
+who
+echo HOME:$HOME
+echo UID:$UID
+echo "userid:$USER"
+_var=123
+echo _var=$_var
+date > datefile
+echo $[1+3]
+var=$(echo "scale=2;11 / 3" | bc)
+echo var=$var
